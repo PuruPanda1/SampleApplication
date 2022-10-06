@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_menu"
+    app:startDestination="@id/home_view">
+
+    <fragment
+        android:id="@+id/home_view"
+        android:name="com.purabmodi.sampleapplication.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/search_view"
+        android:name="com.purabmodi.sampleapplication.Search"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/profile_view"
+        android:name="com.purabmodi.sampleapplication.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/notification_view"
+        android:name="com.purabmodi.sampleapplication.Notification"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/extra_view"
+        android:name="com.purabmodi.sampleapplication.Extra"
+        android:label="Extra"
+        tools:layout="@layout/fragment_extra" />
+</navigation>
